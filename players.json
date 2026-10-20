@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Lionel Messi",
+    "answers": ["messi", "lionel messi", "leo messi"],
+    "clues": [
+      "I was born in Rosario, Argentina, and moved to a Spanish club's academy as a young teenager.",
+      "I have won eight Ballon d'Or awards and famously wore number 10 at Barcelona.",
+      "I finally lifted the World Cup with my country in 2022."
+    ]
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "answers": ["ronaldo", "cristiano ronaldo", "cristiano", "cr7"],
+    "clues": [
+      "I was born on the island of Madeira in Portugal.",
+      "I have played for Sporting, Manchester United, Real Madrid and Juventus.",
+      "I am known for the number 7 and the 'Siuuu' celebration."
+    ]
+  },
+  {
+    "name": "Zinedine Zidane",
+    "answers": ["zidane", "zinedine zidane", "zizou"],
+    "clues": [
+      "I was born in Marseille to Algerian parents.",
+      "I played for Juventus and Real Madrid, and scored a famous volley in the 2002 Champions League final.",
+      "I scored twice in the 1998 World Cup final, and was sent off in the 2006 final."
+    ]
+  },
+  {
+    "name": "Pelé",
+    "answers": ["pele", "edson arantes do nascimento"],
+    "clues": [
+      "I turned professional as a teenager with Santos.",
+      "I am the only player to have won three World Cups.",
+      "My birth name is Edson Arantes do Nascimento."
+    ]
+  },
+  {
+    "name": "Diego Maradona",
+    "answers": ["maradona", "diego maradona", "diego armando maradona"],
+    "clues": [
+      "I was born in Buenos Aires and starred for Boca Juniors.",
+      "I led Napoli to their first Serie A titles.",
+      "I scored both the 'Hand of God' goal and the 'Goal of the Century' in 1986."
+    ]
+  }
+]
