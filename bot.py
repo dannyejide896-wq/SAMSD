@@ -308,6 +308,7 @@ async def me(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
+    logging.info("Panenka v3 starting (if you see this, the new code is deployed)")
     token = os.environ.get("BOT_TOKEN")
     if not token:
         raise SystemExit("Set the BOT_TOKEN environment variable first.")
