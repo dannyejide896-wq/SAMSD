@@ -4,8 +4,18 @@ import logging
 import os
 import random
 import sqlite3
+import subprocess
+import sys
 import unicodedata
 from pathlib import Path
+
+# Auto-install the Telegram library if the host forgot to install it
+try:
+    import telegram  # noqa: F401
+except ImportError:
+    subprocess.check_call(
+        [sys.executable, "-m", "pip", "install", "python-telegram-bot>=21,<23"]
+    )
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Poll, Update
 from telegram.constants import ChatType, ParseMode
